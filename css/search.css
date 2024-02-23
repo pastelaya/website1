@@ -30,6 +30,7 @@ body {
     left: 220px;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 .bar {
@@ -40,4 +41,8 @@ body {
     width: 200px
     padding: 15px;
     color: red;
+}
+
+.bar:focus {
+    outline: none;
 }
