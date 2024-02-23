@@ -30,6 +30,7 @@ body {
     height: 50px;
     width: 50px;
     cursor: pointer;
+    transition: transform 3s ease;
 }
 
 .bar {
@@ -40,6 +41,7 @@ body {
     width: 50px;
     padding: 15px;
     color: red;
+    transition: transform 3s ease;
 }
 
 .bar:focus {
