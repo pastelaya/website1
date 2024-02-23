@@ -6,7 +6,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin 0;
+    margin: 0;
 }
 
 * {
@@ -30,7 +30,7 @@ body {
     height: 50px;
     width: 50px;
     cursor: pointer;
-    transition: transform 3s ease;
+    transition: transform 2s ease;
     top: 0px;
     left: 0px;
 }
@@ -43,7 +43,7 @@ body {
     width: 50px;
     padding: 15px;
     color: red;
-    transition: width 3s ease;
+    transition: width 2s ease;
 }
 
 .bar:focus {
