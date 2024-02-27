@@ -1,3 +1,17 @@
 body {
-    background-color: red
+    height: 100vh;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: DeepPink;
+}
+
+
+.search {
+    color: white;
+}
+
+.loading {
+    color: white;
 }
