@@ -28,7 +28,8 @@ body {
 
 .list {
     font-size: 25px;
-    display: relative;
+    display: flex;
+    flex: .85;
     align-items: center;
     justify-content: right;
 }
