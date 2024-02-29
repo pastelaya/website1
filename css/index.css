@@ -1,5 +1,6 @@
 head {
     display: flex;
+    flex: .5;
     align-items: top;
     justify-content: center;
     z-index: 1;
@@ -28,18 +29,26 @@ body {
 
 
 .photo {
-    height: 20vh;
-    width: 20vw;
+    height: 50vh;
+    width: 50vw;
     background-image: url("images/blehhhh.gif");
     background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
     z-index: 0;
+    display: flex;
+    flex: -3;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 .list {
     font-size: 25px;
     display: flex;
-    flex: .85;
+    flex: 4;
     align-items: center;
     justify-content: right;
+    z-index: 1;
 }
