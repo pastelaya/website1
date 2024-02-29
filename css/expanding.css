@@ -31,6 +31,7 @@ body {
     flex: 0.5;
     margin: 10px;
     position: relative;
+    transition: flex 1s ease-in;
 }
 
 
@@ -54,6 +55,7 @@ body {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
+    transition: opacity .5s ease-in 0.5s;
 }
 
 
