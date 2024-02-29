@@ -22,13 +22,13 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     z-index: -1;
 }
 
 .list {
     font-size: 25px;
-    display: absolute;
+    display: relative;
     align-items: center;
     justify-content: right;
 }
