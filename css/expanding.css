@@ -1,3 +1,7 @@
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -46,4 +50,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
