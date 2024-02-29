@@ -22,12 +22,12 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .loading {
     color: white;
-    font-size: 50px;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
 }
