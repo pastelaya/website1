@@ -26,6 +26,16 @@ body {
     z-index: -1;
 }
 
+
+.photo {
+    height: 20vh;
+    width: 20vw;
+    background-image: url("images/blehhhh.gif");
+    background-position: center;
+    z-index: 0;
+}
+
+
 .list {
     font-size: 25px;
     display: flex;
