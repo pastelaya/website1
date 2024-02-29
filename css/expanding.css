@@ -26,9 +26,18 @@ body {
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
+    position: relative;
 }
 
 
 .panel.active {
     flex: 5;
+}
+
+
+.panel h3 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+
 }
