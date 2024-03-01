@@ -1,9 +1,11 @@
-sounds == ['boo', 'boo', 'boo', 'boo', 'boo', 'boo']
+sound = ['boo', 'boo', 'boo', 'boo', 'boo', 'boo']
 
-sounds.forEach(sound => {
+sound.forEach(sound => {
     btn = document.createElement('button')
     btn.classList.add('btn')
     btn.innetText=sound
-
+    btn.addEventListener('click', ()=> {
+        document.
+    })
     document.getElementById('Buttons').appendChild(btn)
 })
