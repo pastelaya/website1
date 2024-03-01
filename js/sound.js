@@ -1,9 +1,9 @@
-sound = ['boo', 'boo', 'boo', 'boo', 'boo', 'boo']
+sounds = ['boo', 'boo', 'boo', 'boo', 'boo', 'boo']
 
-sound.forEach(sound => {
+sounds.forEach(sound => {
     btn = document.createElement('button')
     btn.classList.add('btn')
-    btn.innerText=sound
+    btn.innerText = sound
     btn.addEventListener('click', () => {
         document.getElementById(sound).play()
     })
