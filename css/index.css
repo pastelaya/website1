@@ -1,10 +1,8 @@
 head {
-    display: flex;
-    flex: .5;
-    align-items: top;
-    justify-content: center;
+    
     z-index: 1;
     font-size: 60px;
+
 }
 
 
