@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&family=Montserrat:ital,wght@1,600&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: #647891;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #849fc2;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1.5rem 3rem;
+    margin: .25rem;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: white;
+    cursor: pointer;
+    font-family: "Kosugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #bac9db;
+    opacity: 0.9;
+}
