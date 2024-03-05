@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Kosugi&family=Montserrat:ital,wght@1,600&family=Permanent+Marker&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,5 +9,12 @@
 body {
     color: #333;
     padding-bottom: 50px;
-    font
+    font-family: "Gentium Plus", serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
