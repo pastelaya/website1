@@ -68,7 +68,14 @@ body {
     letter-spacing: 1.2px;
 }
 
-
+.nav {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
 
 .nav .container {
     display: flex;
@@ -86,7 +93,7 @@ body {
 }
 
 .nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
