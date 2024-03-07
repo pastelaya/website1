@@ -10,8 +10,8 @@ body {
     color: #333;
     padding-bottom: 50px;
     font-family: "Gentium Plus", serif;
-    font-weight: 700;
-    font-style: bold;
+    font-weight: 600;
+    font-style: light;
 }
 
 .container {
@@ -21,8 +21,11 @@ body {
 
 
 .hero {
-    background-image: url();
+    background-image: url(images/blue.jpg);
     background-repeat: none;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
 }
 
 
@@ -109,4 +112,10 @@ body {
 
 .nav.active .container {
     padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+    color: rgb(192,57,43);
+    font-weight: bold;
 }
