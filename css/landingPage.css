@@ -3,6 +3,7 @@
 :root {
     --primary-color: #ed8355;
     --secondary-color: #558ded;
+    --modal-duration: 1s;
 }
 
 * {
