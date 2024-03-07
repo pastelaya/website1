@@ -34,6 +34,7 @@ body {
     margin-bottom: 20px;
     color: white;
     font-size: 25px;
+    z-index: -2;
 }
 
 .hero:before {
