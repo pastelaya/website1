@@ -1,10 +1,14 @@
 
 
+:root {
+    --primary-color: #ed8355;
+    --secondary-color: 
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    
 }
