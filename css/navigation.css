@@ -21,7 +21,7 @@ body {
 
 
 .hero {
-    background-image: url(images/blue.jpg);
+    background-image: url(images/ash-baby.jpg);
     background-repeat: none;
     background-size: cover;
     background-position: bottom center;
@@ -32,6 +32,8 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
 }
 
 .hero:before {
