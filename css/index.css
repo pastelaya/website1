@@ -12,17 +12,20 @@ body {
     align-items: top;
     justify-content: center space-between;
     margin: 0;
+    background-color: lightblue;
 }
 
 .bg {
     height: 100vh;
-    width: 100vw;
-    background-color: LightBlue;
+    width: 50vw;
+    background-color: White;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
