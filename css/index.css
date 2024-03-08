@@ -57,3 +57,10 @@ body {
     justify-content: space-between;
     translate: -400px 50px
     }
+
+.photo:hover {
+        height: 60vh;
+        width: 60vw;
+        transition: ease-in 3s;
+        cursor: pointer;
+    }
