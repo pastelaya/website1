@@ -26,10 +26,9 @@ body {
 }
 
 .header {
-    translate: 20rem -60px;
+    translate: 27rem -60px;
     font-size: 80px;
     position: absolute;
-
 }
 
 
@@ -56,11 +55,4 @@ body {
     align-items: center;
     justify-content: space-between;
     translate: -400px 50px
-    }
-
-.photo :hover {
-        height: 60vh;
-        width: 60vw;
-        transition: ease-in 3s;
-        cursor: pointer;
     }
