@@ -1,4 +1,4 @@
-sounds = ['bo01', 'bo02', 'bo03', 'bo04', 'bo05', 'bo06', 'bo07', 'bo08', 'bo09', 'bo10', 'bo11', 'bo12', 'bo13']
+sounds = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
 
 sounds.forEach(sound => {
     btn = document.createElement('button')
