@@ -1,8 +1,6 @@
 head {
-
     z-index: 1;
     font-size: 60px;
-
 }
 
 
@@ -13,6 +11,7 @@ body {
     justify-content: center space-between;
     margin: 0;
     background-color: lightblue;
+    overflow: hidden;
 }
 
 .bg {
