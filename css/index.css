@@ -45,13 +45,12 @@ body {
 }
 
 .kibby {
-    height: 20vh;
-    width: 100vw;
+    height: 30vh;
+    width: 101vw;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
     display: absolute;
-    /* left: 0; */
-    /* transform: translateX(-11.5%); */
+    transform: translateX(-11%);
     }
