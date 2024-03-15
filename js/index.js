@@ -1,2 +1,2 @@
-var kibby = document.getElementsByClassName('kibby'),
+var list = document.getElementsByClassName('list'),
 hovered = false;
