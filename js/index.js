@@ -1,4 +1,2 @@
-image = document.getElementById('kibby')
-
-
-image.transition
+var kibby = document.getElementsByClassName('kibby'),
+hovered = false;
