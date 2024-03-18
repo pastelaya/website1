@@ -44,6 +44,10 @@ body {
     translate: 200px 50px;
 }
 
+.list a {
+    color: darkblue;
+}
+
 .kibby {
     height: 30vh;
     width: 101vw;

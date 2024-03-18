@@ -1,14 +1,13 @@
 var list = document.getElementsByClassName('list'),
-hovered = false;
+search = document.getElementById('search')
+loading = document.getElementById('loading')
+expand = document.getElementById('expand')
+sound = document.getElementById('sound')
+nav = document.getElementById('nav')
+landing = document.getElementById('landing')
 
-function AnimationListener() {
-    if(hovered)
-    {
-      list.classList.remove('animated');
-      list.style.webkitTransform = 'scale(2)';
-      list.style.MozTransform = 'scale(2)';
-      list.style.msTransform = 'scale(2)';
-      list.style.OTransform = 'scale(2)';
-      list.style.transform = 'scale(2)';
-    }
-}
+search.addEventListener ("mouseover",
+  () => {
+    search.style.color = 'red'
+ });
+
