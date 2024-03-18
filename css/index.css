@@ -1,5 +1,5 @@
 head {
-    z-index: 1;
+    z-index: 2;
     font-size: 60px;
 }
 
@@ -35,13 +35,19 @@ body {
 
 
 .list {
+    height: 390px;
+    width: 35rem;
     font-size: 25px;
     display: flex;
-    flex: 4;
-    align-items: right;
-    justify-content: right;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
-    translate: 200px 50px;
+    translate: 200px 182px;
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
 }
 
 .list a {
@@ -57,4 +63,5 @@ body {
     padding: 0;
     display: absolute;
     transform: translateX(-11%);
+    z-index: 1;
     }
