@@ -6,6 +6,12 @@
     Padding: 0;
 }
 
+head {
+    align-items: top;
+    justify-content: top center;
+    font-size: 20px;
+}
+
 body {
     background-color: #555;
     color: #fff;
